@@ -1,0 +1,35 @@
+{
+    "error": false,
+    "message": "Successfull.",
+    "data": {
+        "id": "8",
+        "tolet_id": "TOLET-108",
+        "tolet_title": "Test title 12",
+        "tolet_uploader_id": "01683264883",
+        "title_image": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg",
+        "tolet_address": "Merul badda",
+        "tolet_rent": "BDT 45000",
+        "tolet_sqfeet": "3400",
+        "tolet_bed_room": "3",
+        "tolet_bath_room": "2",
+        "tolet_car_parking": "1",
+        "tolet_living_room": "3",
+        "tolet_dyning_room": "2",
+        "tolet_status": "0",
+        "tolet_type": "Residential",
+        "tolet_from": "2017-07-11",
+        "tolet_detail_images": [
+            {
+                "imge_url": "https://forum.videohelp.com/images/guides/p1856629/ntsc720x480.png"
+            },
+            {
+                "imge_url": "https://forum.videohelp.com/images/guides/p1856629/ntsc720x480.png"
+            }
+        ]
+    }
+}
+
+Data Format & Tag:
+		tag = "insertWishList";
+		user_id = "Login user id" 
+		post_id = "post id"

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="loading_animation_frame_duration">100</integer>
+    <integer name="image_column_number">3</integer>
+    <item name="imeactionid" format="integer" type="integer">100</item>
+</resources>

@@ -1,0 +1,11 @@
+{
+    "error": false,
+    "message": "Successfull.",
+    "data": true
+}
+
+
+Data Format & Tag:
+	tag = "deleteMyWishList";
+	user_id = "Login User Id" 01683264883
+	post_id = "Post id"

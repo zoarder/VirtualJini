@@ -1,0 +1,52 @@
+{
+    "error": false,
+    "message": "Successfull.",
+    "data": {
+        "id": "1",
+        "tolet_id": "",
+        "tolet_title": "Test title 201111",
+        "tolet_uploader_id": "01683264883",
+        "title_image": "https://forum.v1ideohelp.com/images/guides/p1856629/ntsc720x480.png",
+        "tolet_address": "Merul badda11111",
+        "tolet_rent": "45000111111",
+        "tolet_sqfeet": "3400111111",
+        "tolet_bed_room": "3111111",
+        "tolet_bath_room": "21111",
+        "tolet_car_parking": "111111",
+        "tolet_living_room": "311111",
+        "tolet_dyning_room": "21111",
+        "tolet_status": "0",
+        "tolet_type": "Commercial",
+        "tolet_from": "2017-07-12",
+        "tolet_detail_images": [
+            {
+                "imge_url": "https://forum.videohelp.com/images/guides/p1856629/ntsc720x480.png"
+            },
+            {
+                "imge_url": "https://forum.videohelp.com/images/guides/p1856629/ntsc720x480.png"
+            }
+        ]
+    }
+}
+
+Data Format & Tag:
+		tag = "editPost";
+		user_id = "Login user id" 
+		post_id = "post id"
+        tolet_title = "Test Title";
+        title_image = "Image in string";
+        tolet_address = "Text";
+        tolet_rent = "12000";
+        tolet_sqfeet = "1500";
+        tolet_bed_room = "4";
+        tolet_bath_room = "3";
+		tolet_car_parking = "2";
+        tolet_living_room = "3";
+        tolet_dyning_room = "1";
+        tolet_type = "Residential/Commercial";
+		tolet_from = "2017-07-11";
+		tolet_image1 = "Image in string OR BLANK";
+		tolet_image2 = "Image in string OR BLANK";
+		tolet_image3 = "Image in string OR BLANK";
+		tolet_image4 = "Image in string OR BLANK";
+		tolet_image5 = "Image in string OR BLANK";

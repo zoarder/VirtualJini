@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawer_menu_home"
+            android:title="@string/drawer_menu_home_text" />
+
+        <item
+            android:id="@+id/drawer_menu_my_posted"
+            android:title="@string/drawer_menu_my_posted_text" />
+
+        <item
+            android:id="@+id/drawer_menu_my_wish_list"
+            android:title="@string/drawer_menu_my_wish_list_text" />
+
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/drawer_menu_about_us"
+                android:title="@string/drawer_menu_about_us_text" />
+            <item
+                android:id="@+id/drawer_menu_contact_us"
+                android:title="@string/drawer_menu_contact_us_text" />
+            <item
+                android:id="@+id/drawer_menu_faq"
+                android:title="@string/drawer_menu_faq_text" />
+        </menu>
+    </item>
+
+</menu>

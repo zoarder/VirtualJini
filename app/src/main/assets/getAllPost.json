@@ -1,0 +1,171 @@
+{
+    "error": false,
+    "message": "Successfull.",
+    "data": [
+        {
+            "id": "26",
+            "tolet_id": "TOLET-1026",
+            "tolet_title": "Test title 26",
+            "tolet_uploader_id": "01683264883",
+            "title_image": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg",
+            "tolet_address": "Merul badda",
+            "tolet_rent": "BDT 45000",
+            "tolet_sqfeet": "3400",
+            "tolet_bed_room": "3",
+            "tolet_bath_room": "2",
+            "tolet_car_parking": "1",
+            "tolet_living_room": "3",
+            "tolet_dyning_room": "2",
+            "tolet_status": "1",
+            "tolet_type": "Residential",
+            "tolet_from": "2017-07-11",
+            "tolet_detail_images": [
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                },
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                },
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                },
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "tolet_id": "TOLET-1025",
+            "tolet_title": "Test title 25",
+            "tolet_uploader_id": "01683264883",
+            "title_image": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg",
+            "tolet_address": "Merul badda",
+            "tolet_rent": "BDT 45000",
+            "tolet_sqfeet": "3400",
+            "tolet_bed_room": "3",
+            "tolet_bath_room": "2",
+            "tolet_car_parking": "1",
+            "tolet_living_room": "3",
+            "tolet_dyning_room": "2",
+            "tolet_status": "1",
+            "tolet_type": "Residential",
+            "tolet_from": "2017-07-11",
+            "tolet_detail_images": [
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                },
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                },
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                },
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "tolet_id": "TOLET-1024",
+            "tolet_title": "Test title 24",
+            "tolet_uploader_id": "01683264883",
+            "title_image": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg",
+            "tolet_address": "Merul badda",
+            "tolet_rent": "BDT 45000",
+            "tolet_sqfeet": "3400",
+            "tolet_bed_room": "3",
+            "tolet_bath_room": "2",
+            "tolet_car_parking": "1",
+            "tolet_living_room": "3",
+            "tolet_dyning_room": "2",
+            "tolet_status": "1",
+            "tolet_type": "Residential",
+            "tolet_from": "2017-07-11",
+            "tolet_detail_images": [
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                },
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                },
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                },
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "tolet_id": "TOLET-1023",
+            "tolet_title": "Test title 23",
+            "tolet_uploader_id": "01683264883",
+            "title_image": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg",
+            "tolet_address": "Merul badda",
+            "tolet_rent": "BDT 45000",
+            "tolet_sqfeet": "3400",
+            "tolet_bed_room": "3",
+            "tolet_bath_room": "2",
+            "tolet_car_parking": "1",
+            "tolet_living_room": "3",
+            "tolet_dyning_room": "2",
+            "tolet_status": "1",
+            "tolet_type": "Commercial",
+            "tolet_from": "2017-07-11",
+            "tolet_detail_images": [
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                },
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                },
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                },
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "tolet_id": "TOLET-1022",
+            "tolet_title": "Test title 22",
+            "tolet_uploader_id": "01683264883",
+            "title_image": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg",
+            "tolet_address": "Merul badda",
+            "tolet_rent": "BDT 45000",
+            "tolet_sqfeet": "3400",
+            "tolet_bed_room": "3",
+            "tolet_bath_room": "2",
+            "tolet_car_parking": "1",
+            "tolet_living_room": "3",
+            "tolet_dyning_room": "2",
+            "tolet_status": "1",
+            "tolet_type": "Commercial",
+            "tolet_from": "2017-07-11",
+            "tolet_detail_images": [
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                },
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                },
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                },
+                {
+                    "imge_url": "https://www.psgconnect.co.uk/uploads/images/Logos__Images/Residential_EPCs.jpg"
+                }
+            ]
+        }
+    ]
+}
+
+
+Data Format & Tag:
+	tag = "getAllPost";
+	counter = 1/2/3/4/.....;

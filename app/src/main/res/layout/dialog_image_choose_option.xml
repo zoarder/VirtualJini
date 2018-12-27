@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_image_choose_option_parent_vll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_10dp" >
+
+    <Button
+        android:id="@+id/dialog_image_choose_option_take_picture_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_1dp"
+        android:background="@drawable/dialog_button_rounded_top_background_selector"
+        android:textColor="@color/share_button_text_color" />
+
+    <Button
+        android:id="@+id/dialog_image_choose_option_use_camera_roll_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_1dp"
+        android:background="@drawable/dialog_button_background_selector"
+        android:textColor="@color/share_button_text_color" />
+
+    <Button
+        android:id="@+id/dialog_image_choose_option_default_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_10dp"
+        android:background="@drawable/dialog_button_rounded_bottom_background_selector"
+        android:textColor="@color/share_button_text_color" />
+
+    <Button
+        android:id="@+id/dialog_image_choose_option_cancel_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_button_rounded_background_selector"
+        android:textColor="@color/share_button_text_color"
+        android:textStyle="bold" />
+
+</LinearLayout>

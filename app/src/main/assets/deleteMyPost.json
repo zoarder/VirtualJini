@@ -1,0 +1,11 @@
+{
+    "error": true,
+    "message": "There is an error.",
+    "data": false
+}
+
+
+Data Format & Tag:
+	tag = "deleteMyPost";
+	user_id = "Login User Id" 01683264883
+	id = "Post id"

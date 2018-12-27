@@ -1,0 +1,111 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_us_parent_cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.TakePhotoActivity">
+
+
+    <LinearLayout
+        android:id="@+id/activity_take_photo_llv_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/activity_take_photo_parent_abl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/activity_take_photo_parent_tb"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/background">-->
+
+        <LinearLayout
+            android:id="@+id/activity_take_photo_llv_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <com.technologies.virtualjini.imagepicker.ZoomableImageView
+                android:id="@+id/activity_take_photo_title_iv"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:scaleType="centerInside" />
+
+            <LinearLayout
+                android:id="@+id/activity_take_photo_child_hll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/activity_take_photo_take_picture_iv"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".32"
+                    android:background="@drawable/take_picture"
+                    android:clickable="true"
+                    android:onClick="onClickItem"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/take_photo_img" />
+
+                <View
+                    android:id="@+id/activity_take_photo_ev_2"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".02"
+                    android:background="@android:color/transparent" />
+
+                <ImageView
+                    android:id="@+id/activity_take_photo_use_camera_roll_iv"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".32"
+                    android:clickable="true"
+                    android:onClick="onClickItem"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/galary_img" />
+
+
+                <View
+                    android:id="@+id/activity_take_photo_ev_3"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".02"
+                    android:background="@android:color/transparent" />
+
+                <ImageView
+                    android:id="@+id/activity_take_photo_proceed"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".32"
+                    android:clickable="true"
+                    android:onClick="onClickItem"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/proceed_img" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <!--</ScrollView>-->
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

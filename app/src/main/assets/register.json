@@ -1,0 +1,18 @@
+{
+    "error": false,
+    "message": "Successfull.",
+    "data": {
+        "name": "Arup Kumar",
+        "gender": "1",
+        "mobile": "01683264881",
+        "address": "Dhaka Mahakali"
+    }
+}
+
+Data Format & Tag:
+	tag = "register";
+	name = "Arup Kumar";
+	gender = "1/0"; //1 for male, 0 for female
+    address = "Dhaka Mahakali";
+    mobile = "01683264881";
+    password = "aaaaaa";

@@ -1,0 +1,58 @@
+{
+    "error": false,
+    "message": "Successfull.",
+    "data": {
+        "id": "32",
+        "tolet_id": "TOLET-1032",
+        "tolet_title": "Test title 20",
+        "tolet_uploader_id": "01683264888",
+        "title_image": "http://nurdcoder.com/virtual_jini_api/title_images/32.png",
+        "tolet_address": "Merul badda",
+        "tolet_rent": "BDT 45000",
+        "tolet_sqfeet": "3400",
+        "tolet_bed_room": "3",
+        "tolet_bath_room": "2",
+        "tolet_car_parking": "1",
+        "tolet_living_room": "3",
+        "tolet_dyning_room": "2",
+        "tolet_status": "0",
+        "tolet_type": "Residential",
+        "tolet_from": "2017-07-11",
+        "tolet_detail_images": [
+            {
+                "imge_url": "http://nurdcoder.com/virtual_jini_api/details_images/3281.png"
+            },
+            {
+                "imge_url": "http://nurdcoder.com/virtual_jini_api/details_images/3282.png"
+            },
+            {
+                "imge_url": "http://nurdcoder.com/virtual_jini_api/details_images/3283.png"
+            },
+            {
+                "imge_url": "http://nurdcoder.com/virtual_jini_api/details_images/3284.png"
+            }
+        ]
+    }
+}
+
+
+Data Format & Tag:
+		tag = "insertPost";
+        tolet_title = "Test Title";
+		uploader_id = "User Mobile No"
+        title_image = "Image in string";
+        tolet_address = "Text";
+        tolet_rent = "12000";
+        tolet_sqfeet = "1500";
+        tolet_bed_room = "4";
+        tolet_bath_room = "3";
+		tolet_car_parking = "2";
+        tolet_living_room = "3";
+        tolet_dyning_room = "1";
+        tolet_type = "Residential/Commercial";
+		tolet_from = "2017-07-11";
+		tolet_image1 = "Image in string OR BLANK";
+		tolet_image2 = "Image in string OR BLANK";
+		tolet_image3 = "Image in string OR BLANK";
+		tolet_image4 = "Image in string OR BLANK";
+		tolet_image5 = "Image in string OR BLANK";

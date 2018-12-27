@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_notification_parent_vll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_notification_header_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/normal_text"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dialog_notification_message_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/normal_text" />
+
+    <View
+        android:id="@+id/dialog_notification_horizontal_bar_ev"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/dialog_notification_action_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_action_button_background_selector"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:textColor="@color/dialog_notification_action_bt_text_color"
+        android:textSize="@dimen/normal_text"
+        android:textStyle="bold" />
+
+</LinearLayout>
