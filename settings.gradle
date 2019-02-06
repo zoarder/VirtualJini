@@ -1,1 +1,1 @@
-include ':app', ':image_loader_lib', ':Ripple Effect'
+include ':app', ':Image Loader', ':Ripple Effect'

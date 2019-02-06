@@ -1,18 +1,15 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion '27.0.0'
+    compileSdkVersion rootProject.ext.COMPILE_SDK_VERSION
+    buildToolsVersion rootProject.ext.BUILD_TOOLS_VERSION
 
     defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 27
-        versionCode 48
-        versionName "2.0.3"
-
-
+        minSdkVersion rootProject.ext.MIN_SDK_VERSION
+        targetSdkVersion rootProject.ext.TARGET_SDK_VERSION
+        versionCode rootProject.ext.VERSION_CODE
+        versionName rootProject.ext.VERSION_NAME
     }
-
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_6
@@ -21,10 +18,10 @@ android {
 }
 
 dependencies {
-    testCompile 'junit:junit:4.12'
-    testCompile 'org.robolectric:robolectric:3.0-rc3'
-    testCompile 'com.squareup.assertj:assertj-android:1.0.0'
-    compile files('YouTubeAndroidPlayerApi.jar')
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.robolectric:robolectric:3.6.1'
+    testImplementation 'com.squareup.assertj:assertj-android:1.0.0'
+    implementation files('YouTubeAndroidPlayerApi.jar')
 }
 
 
